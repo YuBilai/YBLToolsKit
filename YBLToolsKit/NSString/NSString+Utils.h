@@ -156,4 +156,32 @@
  */
 + (NSInteger)compareDate:(NSString*)aDate withDate:(NSString*)bDate;
 
+#pragma mark -------- 加密
+
+/**
+ 字符串md5加密
+
+ @return md5加密字符串
+ */
+- (NSString *)md5String;
+
+
+/**
+ AES加密
+
+ @param aesKey key
+ @return aes加密字符串
+ */
+- (NSString *)AESStringWithAesKey:(NSString *)aesKey;
+
+#pragma mark -------- URL
+
+
+/**
+ url编码
+
+ @return url编码后的字符串
+ */
+- (NSString *)urlInURLEncoding;
+
 @end

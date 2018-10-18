@@ -22,6 +22,8 @@
 		C7B4B3E3217861350008B047 /* NSString+check.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3E1217861350008B047 /* NSString+check.m */; };
 		C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3E4217865E50008B047 /* NSString+Utils.h */; };
 		C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3E5217865E50008B047 /* NSString+Utils.m */; };
+		C7B4B3EB217885370008B047 /* AESCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3E9217885370008B047 /* AESCipher.h */; };
+		C7B4B3EC217885370008B047 /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3EA217885370008B047 /* AESCipher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C7B4B3E4217865E50008B047 /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		C7B4B3E5217865E50008B047 /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 		C7B4B3E821786E110008B047 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7B4B3E9217885370008B047 /* AESCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipher.h; sourceTree = "<group>"; };
+		C7B4B3EA217885370008B047 /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		C7B4B3C721772BC60008B047 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B3E9217885370008B047 /* AESCipher.h */,
+				C7B4B3EA217885370008B047 /* AESCipher.m */,
 				C7B4B3C821772BC60008B047 /* Info.plist */,
 				C7B4B3E821786E110008B047 /* PrefixHeader.pch */,
 			);
@@ -175,6 +181,7 @@
 				C7B4B3DB21772D300008B047 /* YBLButton.h in Headers */,
 				C7B4B3D621772C810008B047 /* YBLColorMacro.h in Headers */,
 				C7B4B3D821772C810008B047 /* YBLDeviceMacro.h in Headers */,
+				C7B4B3EB217885370008B047 /* AESCipher.h in Headers */,
 				C7B4B3E2217861350008B047 /* NSString+check.h in Headers */,
 				C7B4B3D721772C810008B047 /* YBLUtilsMacro.h in Headers */,
 			);
@@ -281,6 +288,7 @@
 				C7B4B3D221772C6F0008B047 /* YBLLabel.m in Sources */,
 				C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */,
 				C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */,
+				C7B4B3EC217885370008B047 /* AESCipher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
