@@ -18,6 +18,10 @@
 		C7B4B3D821772C810008B047 /* YBLDeviceMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3D521772C810008B047 /* YBLDeviceMacro.h */; };
 		C7B4B3DB21772D300008B047 /* YBLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3D921772D300008B047 /* YBLButton.h */; };
 		C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3DA21772D300008B047 /* YBLButton.m */; };
+		C7B4B3E2217861350008B047 /* NSString+check.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3E0217861350008B047 /* NSString+check.h */; };
+		C7B4B3E3217861350008B047 /* NSString+check.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3E1217861350008B047 /* NSString+check.m */; };
+		C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3E4217865E50008B047 /* NSString+Utils.h */; };
+		C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3E5217865E50008B047 /* NSString+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		C7B4B3D521772C810008B047 /* YBLDeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBLDeviceMacro.h; sourceTree = "<group>"; };
 		C7B4B3D921772D300008B047 /* YBLButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLButton.h; sourceTree = "<group>"; };
 		C7B4B3DA21772D300008B047 /* YBLButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLButton.m; sourceTree = "<group>"; };
+		C7B4B3E0217861350008B047 /* NSString+check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+check.h"; sourceTree = "<group>"; };
+		C7B4B3E1217861350008B047 /* NSString+check.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+check.m"; sourceTree = "<group>"; };
+		C7B4B3E4217865E50008B047 /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		C7B4B3E5217865E50008B047 /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		C7B4B3E821786E110008B047 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,8 @@
 		C7B4B3AF21772AB00008B047 /* YBLToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B3C921772BC60008B047 /* YBLToolsKit.h */,
+				C7B4B3DD21785F120008B047 /* NSString */,
 				C7B4B3CC21772BE10008B047 /* YBLButton */,
 				C7B4B3CE21772BE20008B047 /* YBLLabel */,
 				C7B4B3CD21772BE10008B047 /* YBLMarco */,
@@ -106,8 +117,8 @@
 		C7B4B3C721772BC60008B047 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7B4B3C921772BC60008B047 /* YBLToolsKit.h */,
 				C7B4B3C821772BC60008B047 /* Info.plist */,
+				C7B4B3E821786E110008B047 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +151,17 @@
 			path = YBLLabel;
 			sourceTree = "<group>";
 		};
+		C7B4B3DD21785F120008B047 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B3E0217861350008B047 /* NSString+check.h */,
+				C7B4B3E1217861350008B047 /* NSString+check.m */,
+				C7B4B3E4217865E50008B047 /* NSString+Utils.h */,
+				C7B4B3E5217865E50008B047 /* NSString+Utils.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,9 +171,11 @@
 			files = (
 				C7B4B3CB21772BC60008B047 /* YBLToolsKit.h in Headers */,
 				C7B4B3D121772C6F0008B047 /* YBLLabel.h in Headers */,
+				C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */,
 				C7B4B3DB21772D300008B047 /* YBLButton.h in Headers */,
 				C7B4B3D621772C810008B047 /* YBLColorMacro.h in Headers */,
 				C7B4B3D821772C810008B047 /* YBLDeviceMacro.h in Headers */,
+				C7B4B3E2217861350008B047 /* NSString+check.h in Headers */,
 				C7B4B3D721772C810008B047 /* YBLUtilsMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B4B3E3217861350008B047 /* NSString+check.m in Sources */,
 				C7B4B3D221772C6F0008B047 /* YBLLabel.m in Sources */,
 				C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */,
+				C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +345,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -378,6 +405,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
