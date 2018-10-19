@@ -12,6 +12,8 @@
 #import "YBLColorMacro.h"
 #import "YBLDeviceMacro.h"
 #import "YBLUtilsMacro.h"
+#import "UIImage+ImageUtils.h"
+#import "UIColor+ColorUtils.h"
 
 //! Project version number for YBLToolsKit.
 FOUNDATION_EXPORT double YBLToolsKitVersionNumber;

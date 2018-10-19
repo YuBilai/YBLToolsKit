@@ -17,4 +17,5 @@
 #import "YBLUtilsMacro.h"
 #import "YBLDeviceMacro.h"
 #import "YBLColorMacro.h"
+#import "YBLToolsKit.h"
 #endif /* PrefixHeader_pch */

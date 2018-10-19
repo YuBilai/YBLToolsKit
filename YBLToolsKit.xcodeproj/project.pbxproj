@@ -26,6 +26,10 @@
 		C7B4B3EC217885370008B047 /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3EA217885370008B047 /* AESCipher.m */; };
 		C7B4B3F421796F360008B047 /* UIView+YBLViewExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */; };
 		C7B4B3F521796F360008B047 /* UIView+YBLViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */; };
+		C7B4B3F82179C4F20008B047 /* UIColor+ColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3F62179C4F20008B047 /* UIColor+ColorUtils.h */; };
+		C7B4B3F92179C4F20008B047 /* UIColor+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3F72179C4F20008B047 /* UIColor+ColorUtils.m */; };
+		C7B4B4002179CEBA0008B047 /* UIImage+ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3FE2179CEBA0008B047 /* UIImage+ImageUtils.h */; };
+		C7B4B4012179CEBA0008B047 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3FF2179CEBA0008B047 /* UIImage+ImageUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		C7B4B3EA217885370008B047 /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
 		C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YBLViewExtension.h"; sourceTree = "<group>"; };
 		C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YBLViewExtension.m"; sourceTree = "<group>"; };
+		C7B4B3F62179C4F20008B047 /* UIColor+ColorUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUtils.h"; sourceTree = "<group>"; };
+		C7B4B3F72179C4F20008B047 /* UIColor+ColorUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtils.m"; sourceTree = "<group>"; };
+		C7B4B3FE2179CEBA0008B047 /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageUtils.h"; sourceTree = "<group>"; };
+		C7B4B3FF2179CEBA0008B047 /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +186,8 @@
 		C7B4B3ED21796E540008B047 /* YBLImage */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B3FE2179CEBA0008B047 /* UIImage+ImageUtils.h */,
+				C7B4B3FF2179CEBA0008B047 /* UIImage+ImageUtils.m */,
 			);
 			path = YBLImage;
 			sourceTree = "<group>";
@@ -185,6 +195,8 @@
 		C7B4B3EE21796E540008B047 /* YBLColor */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B3F62179C4F20008B047 /* UIColor+ColorUtils.h */,
+				C7B4B3F72179C4F20008B047 /* UIColor+ColorUtils.m */,
 			);
 			path = YBLColor;
 			sourceTree = "<group>";
@@ -207,6 +219,7 @@
 			files = (
 				C7B4B3F421796F360008B047 /* UIView+YBLViewExtension.h in Headers */,
 				C7B4B3CB21772BC60008B047 /* YBLToolsKit.h in Headers */,
+				C7B4B4002179CEBA0008B047 /* UIImage+ImageUtils.h in Headers */,
 				C7B4B3D121772C6F0008B047 /* YBLLabel.h in Headers */,
 				C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */,
 				C7B4B3DB21772D300008B047 /* YBLButton.h in Headers */,
@@ -215,6 +228,7 @@
 				C7B4B3EB217885370008B047 /* AESCipher.h in Headers */,
 				C7B4B3E2217861350008B047 /* NSString+check.h in Headers */,
 				C7B4B3D721772C810008B047 /* YBLUtilsMacro.h in Headers */,
+				C7B4B3F82179C4F20008B047 /* UIColor+ColorUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +333,10 @@
 				C7B4B3D221772C6F0008B047 /* YBLLabel.m in Sources */,
 				C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */,
 				C7B4B3F521796F360008B047 /* UIView+YBLViewExtension.m in Sources */,
+				C7B4B3F92179C4F20008B047 /* UIColor+ColorUtils.m in Sources */,
 				C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */,
 				C7B4B3EC217885370008B047 /* AESCipher.m in Sources */,
+				C7B4B4012179CEBA0008B047 /* UIImage+ImageUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
