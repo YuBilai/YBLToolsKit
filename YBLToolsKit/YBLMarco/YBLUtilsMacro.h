@@ -9,7 +9,7 @@
 #ifndef YBLUtilsMacro_h
 #define YBLUtilsMacro_h
 
-#define WINDOW                              ((AppDelegate *)[UIApplication sharedApplication].delegate).window
+#define WINDOW                              (AppDelegate *)[UIApplication sharedApplication].delegate.window
 #define KEY_WINDOW                           ([[UIApplication sharedApplication] keyWindow])
 #define APPLICATION_DELEGATE                 ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 #define kUserDefaults                        [NSUserDefaults standardUserDefaults]

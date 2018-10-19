@@ -24,6 +24,8 @@
 		C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3E5217865E50008B047 /* NSString+Utils.m */; };
 		C7B4B3EB217885370008B047 /* AESCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3E9217885370008B047 /* AESCipher.h */; };
 		C7B4B3EC217885370008B047 /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3EA217885370008B047 /* AESCipher.m */; };
+		C7B4B3F421796F360008B047 /* UIView+YBLViewExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */; };
+		C7B4B3F521796F360008B047 /* UIView+YBLViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		C7B4B3E821786E110008B047 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C7B4B3E9217885370008B047 /* AESCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipher.h; sourceTree = "<group>"; };
 		C7B4B3EA217885370008B047 /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
+		C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YBLViewExtension.h"; sourceTree = "<group>"; };
+		C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YBLViewExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				C7B4B3C921772BC60008B047 /* YBLToolsKit.h */,
+				C7B4B3EE21796E540008B047 /* YBLColor */,
+				C7B4B3ED21796E540008B047 /* YBLImage */,
+				C7B4B3EF21796E540008B047 /* YBLView */,
 				C7B4B3DD21785F120008B047 /* NSString */,
 				C7B4B3CC21772BE10008B047 /* YBLButton */,
 				C7B4B3CE21772BE20008B047 /* YBLLabel */,
@@ -168,6 +175,29 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		C7B4B3ED21796E540008B047 /* YBLImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YBLImage;
+			sourceTree = "<group>";
+		};
+		C7B4B3EE21796E540008B047 /* YBLColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YBLColor;
+			sourceTree = "<group>";
+		};
+		C7B4B3EF21796E540008B047 /* YBLView */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */,
+				C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */,
+			);
+			path = YBLView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -175,6 +205,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B4B3F421796F360008B047 /* UIView+YBLViewExtension.h in Headers */,
 				C7B4B3CB21772BC60008B047 /* YBLToolsKit.h in Headers */,
 				C7B4B3D121772C6F0008B047 /* YBLLabel.h in Headers */,
 				C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */,
@@ -287,6 +318,7 @@
 				C7B4B3E3217861350008B047 /* NSString+check.m in Sources */,
 				C7B4B3D221772C6F0008B047 /* YBLLabel.m in Sources */,
 				C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */,
+				C7B4B3F521796F360008B047 /* UIView+YBLViewExtension.m in Sources */,
 				C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */,
 				C7B4B3EC217885370008B047 /* AESCipher.m in Sources */,
 			);
