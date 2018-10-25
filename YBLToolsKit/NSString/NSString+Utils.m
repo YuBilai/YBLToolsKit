@@ -11,10 +11,6 @@
 #import "AESCipher.h"
 
 @implementation NSString (Utils)
-//字符串去空格
--(NSString *)stringTrimWhitespace{
-    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-}
 
 -(NSString *)securePhoneNumber{
     NSString *regular=@"(?<=\\d{4})\\d(?=\\d{4})";

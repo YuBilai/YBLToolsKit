@@ -14,7 +14,7 @@
     if(self == nil){
         return YES;
     }
-    return [[self stringTrimWhitespace] isEqualToString:@""];
+    return [[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
 }
 
 

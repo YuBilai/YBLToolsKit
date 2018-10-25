@@ -12,13 +12,6 @@
 
 #pragma mark -------- 字符串相关方法
 
-/**
- 字符串去空格
-
- @return 无空格字符串
- */
-- (NSString *)stringTrimWhitespace;
-
 
 /**
  手机号加*号处理
