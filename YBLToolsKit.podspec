@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YBLToolsKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "yubilai’s extension tools kit"
   s.description  = <<-DESC
                    yubilai's extension tools kit!
