@@ -8,7 +8,6 @@
 
 #import "NSString+Utils.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "AESCipher.h"
 
 @implementation NSString (Utils)
 
