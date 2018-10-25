@@ -438,4 +438,41 @@ void ProviderReleaseData (void *info, const void *data, size_t size)
     }
 }
 
++ (UIImage *)resizedImageWithName:(NSString *)name
+{
+    return [self resizedImageWithName:name scaleW:0.5 scaleH:0.5];
+}
+
++ (UIImage *)resizedImageWithName:(NSString *)name scaleW:(CGFloat)scaleW scaleH:(CGFloat)scaleH
+{
+    UIImage *img = [UIImage imageNamed:name];
+    return [img stretchableImageWithLeftCapWidth:img.size.width * scaleW topCapHeight:img.size.height * scaleH];
+}
+
+
++ (UIImage*)imageCircle:(NSString*)imageName withParam:(CGFloat)inset
+{
+    return [self imageCircle:imageName withParam:inset contextWidth:0.0 contextColor:[UIColor clearColor]];
+}
+
++ (UIImage*)imageCircle:(NSString*)imageName withParam:(CGFloat)inset contextWidth:(CGFloat)contextWdith contextColor:(UIColor*)contextColor
+{
+    UIImage *image = [self imageNamed:imageName];
+    
+    UIGraphicsBeginImageContext(image.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetLineWidth(context, contextWdith);
+    CGContextSetStrokeColorWithColor(context, contextColor.CGColor);
+    CGRect rect = CGRectMake(inset, inset, image.size.width - inset * 2.0f, image.size.height - inset * 2.0f);
+    CGContextAddEllipseInRect(context, rect);
+    CGContextClip(context);
+    
+    [image drawInRect:rect];
+    CGContextAddEllipseInRect(context, rect);
+    CGContextStrokePath(context);
+    UIImage *newimg = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newimg;
+}
+
 @end

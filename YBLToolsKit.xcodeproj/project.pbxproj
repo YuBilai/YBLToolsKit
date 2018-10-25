@@ -30,6 +30,39 @@
 		C7B4B3F92179C4F20008B047 /* UIColor+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3F72179C4F20008B047 /* UIColor+ColorUtils.m */; };
 		C7B4B4002179CEBA0008B047 /* UIImage+ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B3FE2179CEBA0008B047 /* UIImage+ImageUtils.h */; };
 		C7B4B4012179CEBA0008B047 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B3FF2179CEBA0008B047 /* UIImage+ImageUtils.m */; };
+		C7B4B43521814EFD0008B047 /* NSData+DataUntils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B43321814EFD0008B047 /* NSData+DataUntils.h */; };
+		C7B4B43621814EFD0008B047 /* NSData+DataUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B43421814EFD0008B047 /* NSData+DataUntils.m */; };
+		C7B4B43B2181508F0008B047 /* NSArray+NilSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B4392181508F0008B047 /* NSArray+NilSafe.h */; };
+		C7B4B43C2181508F0008B047 /* NSArray+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B43A2181508F0008B047 /* NSArray+NilSafe.m */; };
+		C7B4B43F2181511D0008B047 /* NSMutableArray+NilSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B43D2181511D0008B047 /* NSMutableArray+NilSafe.h */; };
+		C7B4B4402181511D0008B047 /* NSMutableArray+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B43E2181511D0008B047 /* NSMutableArray+NilSafe.m */; };
+		C7B4B443218151C80008B047 /* NSDictionary+DictionaryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B441218151C80008B047 /* NSDictionary+DictionaryUtils.h */; };
+		C7B4B444218151C80008B047 /* NSDictionary+DictionaryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B442218151C80008B047 /* NSDictionary+DictionaryUtils.m */; };
+		C7B4B448218153710008B047 /* NSTimer+TimerUntils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B446218153710008B047 /* NSTimer+TimerUntils.h */; };
+		C7B4B449218153710008B047 /* NSTimer+TimerUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B447218153710008B047 /* NSTimer+TimerUntils.m */; };
+		C7B4B44D218155A60008B047 /* UIViewController+YBLViewControllerUntils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B44B218155A60008B047 /* UIViewController+YBLViewControllerUntils.h */; };
+		C7B4B44E218155A60008B047 /* UIViewController+YBLViewControllerUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B44C218155A60008B047 /* UIViewController+YBLViewControllerUntils.m */; };
+		C7B4B45221815A5B0008B047 /* YBLUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B45021815A5B0008B047 /* YBLUserDefaults.h */; };
+		C7B4B45321815A5B0008B047 /* YBLUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B45121815A5B0008B047 /* YBLUserDefaults.m */; };
+		C7B4B4562181601B0008B047 /* UILabel+AutoSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B4542181601B0008B047 /* UILabel+AutoSize.h */; };
+		C7B4B4572181601B0008B047 /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B4552181601B0008B047 /* UILabel+AutoSize.m */; };
+		C7B4B45C218163090008B047 /* UITabBar+bage.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B45A218163090008B047 /* UITabBar+bage.h */; };
+		C7B4B45D218163090008B047 /* UITabBar+bage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B45B218163090008B047 /* UITabBar+bage.m */; };
+		C7B4B461218164A30008B047 /* YBLDetailNull.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B45F218164A30008B047 /* YBLDetailNull.h */; };
+		C7B4B462218164A30008B047 /* YBLDetailNull.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B460218164A30008B047 /* YBLDetailNull.m */; };
+		C7B4B466218166CD0008B047 /* YBLFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B464218166CD0008B047 /* YBLFileUtils.h */; };
+		C7B4B467218166CD0008B047 /* YBLFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B465218166CD0008B047 /* YBLFileUtils.m */; };
+		C7B4B46C218168720008B047 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B46A218168720008B047 /* NSDate+Extensions.h */; };
+		C7B4B46D218168720008B047 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B46B218168720008B047 /* NSDate+Extensions.m */; };
+		C7B4B46F21816C9B0008B047 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B46E21816C9A0008B047 /* NullSafe.m */; };
+		C7B4B47721816E4C0008B047 /* UIAlertView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B47521816E4C0008B047 /* UIAlertView+Utils.m */; };
+		C7B4B47821816E4C0008B047 /* UIAlertView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B47621816E4C0008B047 /* UIAlertView+Utils.h */; };
+		C7B4B47B21816EE00008B047 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B47921816EDF0008B047 /* UIButton+Badge.m */; };
+		C7B4B47C21816EE00008B047 /* UIButton+Badge.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B47A21816EE00008B047 /* UIButton+Badge.h */; };
+		C7B4B47F21816F670008B047 /* UIButton+MyFont_h.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B47D21816F660008B047 /* UIButton+MyFont_h.m */; };
+		C7B4B48021816F670008B047 /* UIButton+MyFont_h.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B47E21816F660008B047 /* UIButton+MyFont_h.h */; };
+		C7B4B483218171730008B047 /* UIView+YSTextInputKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4B481218171730008B047 /* UIView+YSTextInputKeyboard.h */; };
+		C7B4B484218171730008B047 /* UIView+YSTextInputKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4B482218171730008B047 /* UIView+YSTextInputKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +102,39 @@
 		C7B4B3F72179C4F20008B047 /* UIColor+ColorUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtils.m"; sourceTree = "<group>"; };
 		C7B4B3FE2179CEBA0008B047 /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageUtils.h"; sourceTree = "<group>"; };
 		C7B4B3FF2179CEBA0008B047 /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageUtils.m"; sourceTree = "<group>"; };
+		C7B4B43321814EFD0008B047 /* NSData+DataUntils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+DataUntils.h"; sourceTree = "<group>"; };
+		C7B4B43421814EFD0008B047 /* NSData+DataUntils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+DataUntils.m"; sourceTree = "<group>"; };
+		C7B4B4392181508F0008B047 /* NSArray+NilSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+NilSafe.h"; sourceTree = "<group>"; };
+		C7B4B43A2181508F0008B047 /* NSArray+NilSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NilSafe.m"; sourceTree = "<group>"; };
+		C7B4B43D2181511D0008B047 /* NSMutableArray+NilSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NilSafe.h"; sourceTree = "<group>"; };
+		C7B4B43E2181511D0008B047 /* NSMutableArray+NilSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NilSafe.m"; sourceTree = "<group>"; };
+		C7B4B441218151C80008B047 /* NSDictionary+DictionaryUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DictionaryUtils.h"; sourceTree = "<group>"; };
+		C7B4B442218151C80008B047 /* NSDictionary+DictionaryUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DictionaryUtils.m"; sourceTree = "<group>"; };
+		C7B4B446218153710008B047 /* NSTimer+TimerUntils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TimerUntils.h"; sourceTree = "<group>"; };
+		C7B4B447218153710008B047 /* NSTimer+TimerUntils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TimerUntils.m"; sourceTree = "<group>"; };
+		C7B4B44B218155A60008B047 /* UIViewController+YBLViewControllerUntils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YBLViewControllerUntils.h"; sourceTree = "<group>"; };
+		C7B4B44C218155A60008B047 /* UIViewController+YBLViewControllerUntils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YBLViewControllerUntils.m"; sourceTree = "<group>"; };
+		C7B4B45021815A5B0008B047 /* YBLUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLUserDefaults.h; sourceTree = "<group>"; };
+		C7B4B45121815A5B0008B047 /* YBLUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLUserDefaults.m; sourceTree = "<group>"; };
+		C7B4B4542181601B0008B047 /* UILabel+AutoSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSize.h"; sourceTree = "<group>"; };
+		C7B4B4552181601B0008B047 /* UILabel+AutoSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSize.m"; sourceTree = "<group>"; };
+		C7B4B45A218163090008B047 /* UITabBar+bage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+bage.h"; sourceTree = "<group>"; };
+		C7B4B45B218163090008B047 /* UITabBar+bage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+bage.m"; sourceTree = "<group>"; };
+		C7B4B45F218164A30008B047 /* YBLDetailNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLDetailNull.h; sourceTree = "<group>"; };
+		C7B4B460218164A30008B047 /* YBLDetailNull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLDetailNull.m; sourceTree = "<group>"; };
+		C7B4B464218166CD0008B047 /* YBLFileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLFileUtils.h; sourceTree = "<group>"; };
+		C7B4B465218166CD0008B047 /* YBLFileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLFileUtils.m; sourceTree = "<group>"; };
+		C7B4B46A218168720008B047 /* NSDate+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		C7B4B46B218168720008B047 /* NSDate+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		C7B4B46E21816C9A0008B047 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		C7B4B47521816E4C0008B047 /* UIAlertView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utils.m"; sourceTree = "<group>"; };
+		C7B4B47621816E4C0008B047 /* UIAlertView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utils.h"; sourceTree = "<group>"; };
+		C7B4B47921816EDF0008B047 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		C7B4B47A21816EE00008B047 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		C7B4B47D21816F660008B047 /* UIButton+MyFont_h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyFont_h.m"; sourceTree = "<group>"; };
+		C7B4B47E21816F660008B047 /* UIButton+MyFont_h.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MyFont_h.h"; sourceTree = "<group>"; };
+		C7B4B481218171730008B047 /* UIView+YSTextInputKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YSTextInputKeyboard.h"; sourceTree = "<group>"; };
+		C7B4B482218171730008B047 /* UIView+YSTextInputKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSTextInputKeyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +179,16 @@
 			isa = PBXGroup;
 			children = (
 				C7B4B3C921772BC60008B047 /* YBLToolsKit.h */,
+				C7B4B47021816D100008B047 /* UIAleartView */,
+				C7B4B463218166B20008B047 /* NSFileManager */,
+				C7B4B45E218164780008B047 /* NSNull */,
+				C7B4B458218162DD0008B047 /* UITabBar */,
+				C7B4B44F21815A220008B047 /* NSUserDefaults */,
+				C7B4B44A2181557E0008B047 /* UIViewController */,
+				C7B4B445218153370008B047 /* NSTimer */,
+				C7B4B4372181506F0008B047 /* NSArray */,
+				C7B4B4382181506F0008B047 /* NSDictionary */,
+				C7B4B43221814E7A0008B047 /* NSDate */,
 				C7B4B3EE21796E540008B047 /* YBLColor */,
 				C7B4B3ED21796E540008B047 /* YBLImage */,
 				C7B4B3EF21796E540008B047 /* YBLView */,
@@ -147,6 +223,10 @@
 		C7B4B3CC21772BE10008B047 /* YBLButton */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B47E21816F660008B047 /* UIButton+MyFont_h.h */,
+				C7B4B47D21816F660008B047 /* UIButton+MyFont_h.m */,
+				C7B4B47A21816EE00008B047 /* UIButton+Badge.h */,
+				C7B4B47921816EDF0008B047 /* UIButton+Badge.m */,
 				C7B4B3D921772D300008B047 /* YBLButton.h */,
 				C7B4B3DA21772D300008B047 /* YBLButton.m */,
 			);
@@ -168,6 +248,8 @@
 			children = (
 				C7B4B3CF21772C6F0008B047 /* YBLLabel.h */,
 				C7B4B3D021772C6F0008B047 /* YBLLabel.m */,
+				C7B4B4542181601B0008B047 /* UILabel+AutoSize.h */,
+				C7B4B4552181601B0008B047 /* UILabel+AutoSize.m */,
 			);
 			path = YBLLabel;
 			sourceTree = "<group>";
@@ -204,10 +286,107 @@
 		C7B4B3EF21796E540008B047 /* YBLView */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B481218171730008B047 /* UIView+YSTextInputKeyboard.h */,
+				C7B4B482218171730008B047 /* UIView+YSTextInputKeyboard.m */,
 				C7B4B3F221796F360008B047 /* UIView+YBLViewExtension.h */,
 				C7B4B3F321796F360008B047 /* UIView+YBLViewExtension.m */,
 			);
 			path = YBLView;
+			sourceTree = "<group>";
+		};
+		C7B4B43221814E7A0008B047 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B43321814EFD0008B047 /* NSData+DataUntils.h */,
+				C7B4B43421814EFD0008B047 /* NSData+DataUntils.m */,
+				C7B4B46A218168720008B047 /* NSDate+Extensions.h */,
+				C7B4B46B218168720008B047 /* NSDate+Extensions.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		C7B4B4372181506F0008B047 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B4392181508F0008B047 /* NSArray+NilSafe.h */,
+				C7B4B43A2181508F0008B047 /* NSArray+NilSafe.m */,
+				C7B4B43D2181511D0008B047 /* NSMutableArray+NilSafe.h */,
+				C7B4B43E2181511D0008B047 /* NSMutableArray+NilSafe.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		C7B4B4382181506F0008B047 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B441218151C80008B047 /* NSDictionary+DictionaryUtils.h */,
+				C7B4B442218151C80008B047 /* NSDictionary+DictionaryUtils.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		C7B4B445218153370008B047 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B446218153710008B047 /* NSTimer+TimerUntils.h */,
+				C7B4B447218153710008B047 /* NSTimer+TimerUntils.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		C7B4B44A2181557E0008B047 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B44B218155A60008B047 /* UIViewController+YBLViewControllerUntils.h */,
+				C7B4B44C218155A60008B047 /* UIViewController+YBLViewControllerUntils.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C7B4B44F21815A220008B047 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B45021815A5B0008B047 /* YBLUserDefaults.h */,
+				C7B4B45121815A5B0008B047 /* YBLUserDefaults.m */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		C7B4B458218162DD0008B047 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B45A218163090008B047 /* UITabBar+bage.h */,
+				C7B4B45B218163090008B047 /* UITabBar+bage.m */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+		C7B4B45E218164780008B047 /* NSNull */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B46E21816C9A0008B047 /* NullSafe.m */,
+				C7B4B45F218164A30008B047 /* YBLDetailNull.h */,
+				C7B4B460218164A30008B047 /* YBLDetailNull.m */,
+			);
+			path = NSNull;
+			sourceTree = "<group>";
+		};
+		C7B4B463218166B20008B047 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B464218166CD0008B047 /* YBLFileUtils.h */,
+				C7B4B465218166CD0008B047 /* YBLFileUtils.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		C7B4B47021816D100008B047 /* UIAleartView */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4B47621816E4C0008B047 /* UIAlertView+Utils.h */,
+				C7B4B47521816E4C0008B047 /* UIAlertView+Utils.m */,
+			);
+			path = UIAleartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,17 +396,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B4B466218166CD0008B047 /* YBLFileUtils.h in Headers */,
 				C7B4B3F421796F360008B047 /* UIView+YBLViewExtension.h in Headers */,
+				C7B4B43F2181511D0008B047 /* NSMutableArray+NilSafe.h in Headers */,
+				C7B4B46C218168720008B047 /* NSDate+Extensions.h in Headers */,
+				C7B4B43521814EFD0008B047 /* NSData+DataUntils.h in Headers */,
 				C7B4B3CB21772BC60008B047 /* YBLToolsKit.h in Headers */,
+				C7B4B47C21816EE00008B047 /* UIButton+Badge.h in Headers */,
+				C7B4B47821816E4C0008B047 /* UIAlertView+Utils.h in Headers */,
 				C7B4B4002179CEBA0008B047 /* UIImage+ImageUtils.h in Headers */,
+				C7B4B4562181601B0008B047 /* UILabel+AutoSize.h in Headers */,
 				C7B4B3D121772C6F0008B047 /* YBLLabel.h in Headers */,
 				C7B4B3E6217865E50008B047 /* NSString+Utils.h in Headers */,
+				C7B4B48021816F670008B047 /* UIButton+MyFont_h.h in Headers */,
 				C7B4B3DB21772D300008B047 /* YBLButton.h in Headers */,
 				C7B4B3D621772C810008B047 /* YBLColorMacro.h in Headers */,
+				C7B4B461218164A30008B047 /* YBLDetailNull.h in Headers */,
+				C7B4B483218171730008B047 /* UIView+YSTextInputKeyboard.h in Headers */,
+				C7B4B44D218155A60008B047 /* UIViewController+YBLViewControllerUntils.h in Headers */,
 				C7B4B3D821772C810008B047 /* YBLDeviceMacro.h in Headers */,
 				C7B4B3EB217885370008B047 /* AESCipher.h in Headers */,
+				C7B4B45C218163090008B047 /* UITabBar+bage.h in Headers */,
+				C7B4B448218153710008B047 /* NSTimer+TimerUntils.h in Headers */,
 				C7B4B3E2217861350008B047 /* NSString+check.h in Headers */,
+				C7B4B45221815A5B0008B047 /* YBLUserDefaults.h in Headers */,
 				C7B4B3D721772C810008B047 /* YBLUtilsMacro.h in Headers */,
+				C7B4B443218151C80008B047 /* NSDictionary+DictionaryUtils.h in Headers */,
+				C7B4B43B2181508F0008B047 /* NSArray+NilSafe.h in Headers */,
 				C7B4B3F82179C4F20008B047 /* UIColor+ColorUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,14 +524,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B4B45D218163090008B047 /* UITabBar+bage.m in Sources */,
 				C7B4B3E3217861350008B047 /* NSString+check.m in Sources */,
+				C7B4B43621814EFD0008B047 /* NSData+DataUntils.m in Sources */,
+				C7B4B45321815A5B0008B047 /* YBLUserDefaults.m in Sources */,
+				C7B4B46D218168720008B047 /* NSDate+Extensions.m in Sources */,
+				C7B4B46F21816C9B0008B047 /* NullSafe.m in Sources */,
+				C7B4B444218151C80008B047 /* NSDictionary+DictionaryUtils.m in Sources */,
+				C7B4B47721816E4C0008B047 /* UIAlertView+Utils.m in Sources */,
 				C7B4B3D221772C6F0008B047 /* YBLLabel.m in Sources */,
 				C7B4B3DC21772D300008B047 /* YBLButton.m in Sources */,
+				C7B4B462218164A30008B047 /* YBLDetailNull.m in Sources */,
 				C7B4B3F521796F360008B047 /* UIView+YBLViewExtension.m in Sources */,
+				C7B4B44E218155A60008B047 /* UIViewController+YBLViewControllerUntils.m in Sources */,
 				C7B4B3F92179C4F20008B047 /* UIColor+ColorUtils.m in Sources */,
 				C7B4B3E7217865E50008B047 /* NSString+Utils.m in Sources */,
+				C7B4B47F21816F670008B047 /* UIButton+MyFont_h.m in Sources */,
+				C7B4B484218171730008B047 /* UIView+YSTextInputKeyboard.m in Sources */,
+				C7B4B467218166CD0008B047 /* YBLFileUtils.m in Sources */,
+				C7B4B4572181601B0008B047 /* UILabel+AutoSize.m in Sources */,
+				C7B4B43C2181508F0008B047 /* NSArray+NilSafe.m in Sources */,
+				C7B4B449218153710008B047 /* NSTimer+TimerUntils.m in Sources */,
 				C7B4B3EC217885370008B047 /* AESCipher.m in Sources */,
 				C7B4B4012179CEBA0008B047 /* UIImage+ImageUtils.m in Sources */,
+				C7B4B47B21816EE00008B047 /* UIButton+Badge.m in Sources */,
+				C7B4B4402181511D0008B047 /* NSMutableArray+NilSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

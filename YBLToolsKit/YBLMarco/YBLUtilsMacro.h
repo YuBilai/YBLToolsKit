@@ -66,6 +66,8 @@
 #define FONT_NAME_SIZE(_FontName_,_FontSize_)           [UIFont fontWithName:_fontName_ size:_fontSize_]
 #define FONTSIZE(_FontSize_)                            [UIFont systemFontOfSize:_FontSize_]
 #define FONT_BOLD_SIZE(_FontSize_)                       [UIFont boldSystemFontOfSize: _FontSize_]
+#define kCustomFontName @"Helvetica"
+#define kFontSize(fontSize)  ([UIFont fontWithName:CustomFontName size:fontSize])
 
 /// block self
 #define kWeakSelf __weak typeof(self) weakSelf = self

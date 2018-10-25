@@ -184,4 +184,30 @@
  */
 - (NSString *)urlInURLEncoding;
 
+#pragma mark -------- 数字转化
+/**
+ * 数字转罗马
+ */
++ (NSString *)toRoman:(int)num;
+
+
+//阿拉伯数字转汉字
++(NSString *)arabicNumeralsToChinese:(int)number;
+
+#pragma mark -------- 其他转换
+//将银行卡类型转化为中文
++(NSString *)changeChineseTypeWithCardType:(NSString *)cardType;
+
+//给一串字符串按每单位长度添加指定的字符
++ (NSString *)appendCharacters:(NSString *)addedStr WithUnitLength:(NSInteger)unitLength inAppendingStr:(NSString *)appendingStr;
+
+//把金额从以分为单位转换为xx元xx角xx分的形式
++ (NSString *)convertFenBalanceToYuanJiaoFenWithBalance:(NSString *)balance;
+
+//把金额从以元为单位转换为xx分的形式
++ (NSInteger)convertYuanBalanceToFenWithBalance:(NSString *)balance;
+
+//替换字符串的*
++ (NSString *)getStarWithStinng:(NSString *)string Range:(NSRange)range;
+
 @end

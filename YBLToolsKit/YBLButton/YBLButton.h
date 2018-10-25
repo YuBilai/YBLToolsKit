@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ButtonBlock)(UIButton* btn);
 @interface YBLButton : UIButton
+#pragma mark -------- init
 
+
+#pragma mark -------- action
+- (void)addAction:(ButtonBlock)block;
+- (void)addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents;
 @end

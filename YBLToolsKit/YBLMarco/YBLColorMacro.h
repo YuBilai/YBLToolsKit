@@ -26,6 +26,7 @@
 #define kDARKGRAYCOLOR [UIColor darkGrayColor]
 
 #pragma mark -------- 随机色
+#define YBLColor(r,g,b,a) [UIColor colorWithRed:(r)/256.0f green:(r)/256.0f blue:(r)/256.0f alpha:(a)]
 #define kYBLRandomColor YBLColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), 1)
 
 #pragma mark --------  颜色16进制

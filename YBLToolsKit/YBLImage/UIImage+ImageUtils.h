@@ -25,10 +25,6 @@
 #pragma mark --截图
 - (UIImage*)cropImageWithRect:(CGRect)cropRect;
 
-
-#pragma mark -
-#pragma mark -  ztx add start
-
 - (UIImage *)scaledImageV2WithWidth:(CGFloat)aWidth andHeight:(CGFloat)aHeight;
 - (UIImage *) scaledImageWithWidth:(CGFloat)width andHeight:(CGFloat)height;
 - (UIImage *)scaledHeadImageWithWidth:(CGFloat)aWidth andHeight:(CGFloat)aHeight;
@@ -44,5 +40,38 @@
 - (BOOL)isEqualToImage:(UIImage *)image;
 /// 生成指定大小二维码
 + (UIImage *)creatRacode:(NSString *)urlstring Width:(NSInteger)imgHW;
+
+/**
+ *  从图片中点开始拉伸
+ */
++ (UIImage *)resizedImageWithName:(NSString *)name;
+/**
+ *  从制定位置开始拉伸图片
+ *
+ *  @param name   图片名字
+ *  @param scaleW x
+ *  @param scaleH y
+ *
+ *  @return 拉伸后的图片
+ */
++ (UIImage *)resizedImageWithName:(NSString *)name scaleW:(CGFloat)scaleW scaleH:(CGFloat)scaleH;
+
+
+/**
+ *  对画布裁剪成圆形,然后再将原始图像画出来
+ *
+ *  @param imageName 图片名
+ *  @param inset     偏移量 建议为0，使用默认大小
+ */
++ (UIImage*)imageCircle:(NSString*)imageName withParam:(CGFloat)inset;
+/**
+ *  对画布裁剪成圆形,然后再将原始图像画出来
+ *
+ *  @param imageName    图片名
+ *  @param inset        偏移量 建议为0，使用默认大小
+ *  @param contextWdith 边框宽度
+ *  @param contextColor 边框颜色
+ */
++ (UIImage*)imageCircle:(NSString*)imageName withParam:(CGFloat)inset contextWidth:(CGFloat)contextWdith contextColor:(UIColor*)contextColor;
 
 @end
