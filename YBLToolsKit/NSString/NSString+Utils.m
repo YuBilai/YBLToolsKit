@@ -8,6 +8,7 @@
 
 #import "NSString+Utils.h"
 #import <CommonCrypto/CommonDigest.h>
+#import "YBLToolsKit.h"
 
 @implementation NSString (Utils)
 
