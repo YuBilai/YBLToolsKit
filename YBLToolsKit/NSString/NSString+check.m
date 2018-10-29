@@ -10,14 +10,6 @@
 
 @implementation NSString (check)
 
-- (BOOL)checkEmpty{
-    if(self == nil){
-        return YES;
-    }
-    return [[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
-}
-
-
 -(BOOL)checkMobileNumber
 {
     NSString *regex = @"^1[0-9]{10}$";
@@ -344,15 +336,12 @@
     }else {
         return NO;
     }
-    
     return YES;
 }
 
 //是否含空格
 + (BOOL) checkEmptyString:(NSString *) string {
-    
     if (string == nil) return string == nil;
-    
     NSString *newStr = [string stringByReplacingOccurrencesOfString:@" " withString:@""];
     return [newStr isEqualToString:@""];
 }

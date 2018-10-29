@@ -11,12 +11,7 @@
 @interface NSString (check)
 
 #pragma mark -------- 属性方法
-/**
- 字符串判断是否为空
 
- @return Y/N
- */
-- (BOOL)checkEmpty;
 
 
 /**

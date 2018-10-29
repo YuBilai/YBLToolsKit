@@ -44,7 +44,7 @@
 }
 
 +(NSString *)formatBrushAmount:(NSString *)string{
-    if(string == nil || [string checkEmpty]){
+    if(string == nil || [NSString checkEmptyString:string]){
         return @"￥0.00";
     }
     if(string.length == 1){
@@ -61,7 +61,7 @@
 }
 
 + (NSString *)formatAmount:(NSString *)string {
-    if(string == nil || [string checkEmpty]){
+    if(string == nil || [NSString checkEmptyString:string]){
         return @"0.00";
     }
     if(string.length == 1){
@@ -132,7 +132,7 @@
 
 +(NSString*)getCurrentTimes:(NSString *)format{
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    if (format.checkEmpty) {
+    if ([NSString checkEmptyString:format]) {
         format = @"YYYY-MM-dd";
     }
     [formatter setDateFormat:format];
