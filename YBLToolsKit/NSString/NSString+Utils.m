@@ -235,7 +235,6 @@
             }
             if (num >= 40) {
                 roman = [roman stringByAppendingString:@"XL"];
-                
                 num -= 90;
                 continue;
             }
